@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h3>Acuña mis primero paso en Vue</h3>
+    <h2>{{ mensaje1 }}</h2>
   </div>
 </template>
 
@@ -10,6 +11,11 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  data(){
+    return{
+      mensaje1:'Hola mundo te saluda Josué'
+    }
   }
 }
 </script>

@@ -1,4 +1,5 @@
 <template>
+  <PortadaComponente></PortadaComponente>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Primeros pasos en Vue"/>
   <br>
@@ -10,13 +11,15 @@
 import HelloWorld from './components/HelloWorld.vue'
 import MiComponente from './components/MiComponente.vue'
 import DatosComponente from './components/DatosComponente.vue'
+import PortadaComponente from './components/PortadaComponente.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
     MiComponente,
-    DatosComponente
+    DatosComponente,
+    PortadaComponente
   }
 }
 </script>

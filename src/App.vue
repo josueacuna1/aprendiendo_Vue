@@ -1,6 +1,7 @@
 <template>
-  <PortadaComponente></PortadaComponente>
+  
   <img alt="Vue logo" src="./assets/logo.png">
+  <PortadaComponente></PortadaComponente>
   <HelloWorld msg="Primeros pasos en Vue"/>
   <br>
   <MiComponente></MiComponente>

@@ -6,6 +6,7 @@
   <br>
   <MiComponente></MiComponente>
   <DatosComponente></DatosComponente>
+  <formularioComponente></formularioComponente>
 </template>
 
 <script>
@@ -13,6 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import MiComponente from './components/MiComponente.vue'
 import DatosComponente from './components/DatosComponente.vue'
 import PortadaComponente from './components/PortadaComponente.vue'
+import formularioComponente from './components/formularioComponente.vue'
 
 export default {
   name: 'App',
@@ -20,7 +22,8 @@ export default {
     HelloWorld,
     MiComponente,
     DatosComponente,
-    PortadaComponente
+    PortadaComponente,
+    formularioComponente
   }
 }
 </script>
